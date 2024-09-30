@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; /* Susun konten secara vertikal */
+
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto; /* Pusatkan tabel secara horizontal */
+    border-collapse: collapse;
+}
+
+.conten2 {
+    display: flex;
+    flex-direction: column; /* Susun konten secara vertikal */
+    justify-content: center; /* Pusatkan konten di dalam kotak */
+    align-items: center; /* Pusatkan item dalam kotak secara horizontal */
+    padding: 20px;
+    border: 2px solid #ccc; /* Tambahkan border untuk kotak */
+    border-radius: 10px; /* Membuat sudut kotak melengkung */
+    width: 300px; /* Lebar tetap untuk form */
+    background-color: #fff; /* Warna latar belakang kotak */
+    box-shadow: 0px 4px 8px; /* Menambahkan bayangan pada kotak */
+    margin: 20px auto; /* Pusatkan kontainer dengan margin otomatis */
+}
+
+label, input {
+    width: 100%; /* Atur lebar label dan input agar sesuai dengan kontainer */
+    
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Membuat sudut input melengkung */
+    box-sizing: border-box; /* Menghindari overflow konten */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049; /* Warna saat hover pada tombol */
+}
